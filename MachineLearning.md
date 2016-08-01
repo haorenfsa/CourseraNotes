@@ -74,3 +74,41 @@ which is a linear algebra routine built in Octave
 makes me think that is there a rule to decide whether it should be implement in unsurpervised learning?
 answer:
 by whether u got data with correct answer or not.
+
+
+# chapter: model and cost function #
+## Model Representation ##
+
+#### concept: training set ####
+
+	m for number of training set examples
+	x for input
+	y for output
+	(x,y) one example
+	(x(i),y(i)) for the i-th example
+
+#### concept: hypothesis ####
+
+	input - hypothesis - output
+
+how to represent h?
+
+	h(ceta)(x) = ceta0 + ceta1x
+	shorthand: h(x);
+	ceta is called parameter
+
+Model Name :linear regression with 1 var 
+or Univariate linear regression
+## cost function ##
+
+	choose ceta0 ceta1 so that h(x) is close to y
+
+-> 1/2m sum(m,i, minimize( h(x)(i) - y(i) )^2 )
+
+	J(ceta0,ceta1)
+	called cost function
+	also squared error function
+	in chinese 代价函数/方差函数
+
+we need to find a algorithm to auto calculate the J func
+and it should work when there are more parameters.
