@@ -89,3 +89,30 @@ fox: ㅕ ㅜ
 ouch: ㅏ ㅑ
 
 yoyo ball: ㅛ ㅛ
+
+
+# class2: 14 consonant
+##Five basic symbol
+- 5 basic symbols to form all consonants
+- each symbols symbolize how it is vocalized  
+Lip, teeth, throat, tongue, molar  
+like 5 elements: soil, metal, water, fire, tree  
+these sound are called:labial, dental, glottal, alveolar, velar sound
+they are: ㄱg(giyeok, omit below), ㄴniuen，ㅁmiuen，ㅅsiot(s~sh)，ㅇng（ieung）
+
+##expand
+- ㅋk
+- ㄷd，ㅌt，ㄹ(l~r) eg:(l~r)amen라면
+- ㅂb，ㅍp
+- ㅈj，ㅊch
+- ㅎh
+
+## all 14 consonants:
+ㄱgiyeok ㄴnieun ㄷdigeut ㄹreul ㅁmieum ㅂbieup ㅅsiot ㅇieung ㅈjieut ㅊchieut ㅋkieuk ㅌtieut ㅍpieup ㅎhieut
+
+## now how to pronounce(type)
+- consonant14 + vowel a(ㅏ)
+가ga, 나na, 다da, 라(l~r)a, 마ma, 바ba, 사sa, 아a, 자ja, 차cha,타ta, 파pa, 하ha
+
+- egs:  
+가구furniture 구기meat 야부yabu 아기ugi 누나 쿠두 나라 파기 가됴 우디 아모리 쿠모 피누 투쿠 구디 투나무 파지 추죠 차 치마 키차 쿠도
