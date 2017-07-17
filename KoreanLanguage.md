@@ -57,7 +57,7 @@ Yin:ㅓ ㅜ Yang:ㅗ ㅏ
 **first-derived**
 
 - ㅏ : "ah" (拼音‘a’第四声in chinese，same below)
-- ㅓ : "ou" (奥)
+- ㅓ : "ou" (奥)  type eo
 - ㅗ : "oh" (哦)
 - ㅜ : "u" (乌)
 - ㅡ : "eu" (额乌)
