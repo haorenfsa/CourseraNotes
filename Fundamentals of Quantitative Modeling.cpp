@@ -142,3 +142,50 @@ module 1{
         
     }
 }
+
+// linear model intro, and optm
+module 2{
+    content{
+        linear models
+        growth and decay in discrete or continuous time
+        classical optimization
+    }
+    deterministic model feature{
+        no random var
+        downside: hard to assess uncertainty in outputs
+    }
+    linear{
+        slope is constant
+    }
+    linear programming{
+        LP   solve certain optimization problems
+        often used in Excel or other spreadsheet
+    }
+    
+    Growth in discrete time{
+        proportionate / additive | growth
+        simple/compound interest
+    }
+    constant proportionate growth{
+        the sum geometric series fomula
+        等差求和
+    }
+    Present and Future Value{
+        continuous compound
+        e 符合无穷细分复利模型
+    }
+    optimization{
+        求函数max
+        visualize
+    }
+}
+
+Probabilistic model{
+    probabilitiy distributions: means（均值）, variances（方差） and std deviation（偏差）
+    random var: Bernoulli Binomial and Normal
+    incorparate uncertainty explicitly in model
+    
+    probabilistic egs{
+        oil price - airline cost
+    }
+}

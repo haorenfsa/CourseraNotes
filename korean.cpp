@@ -23,7 +23,7 @@ Greeting and Introduce{
         
         Introduce self{
             answering:
-             ?第四?cheao neng
+            read cheao neng
             저    는                          xxx        에  요
             jeo  neun                        xxx        e  yo
              I    topicmark(imply object)   family+name
@@ -34,7 +34,7 @@ Greeting and Introduce{
               ?第四?
             제  이 름    xxx （이）에요
             je i leum
-            my
+            my  name 
         }
         
         addition{
@@ -50,11 +50,44 @@ Greeting and Introduce{
             thank you
             고go  맙mab 습seub 니ni 다da
             아 니 에 요
-            ??系？
+            alwright?
             
             nice to meet you
                 升            ?        降
             만man 나na 사sa 반ban 가ga 워wo 요yo
+            
+        }
+        
+        2.2{
+            씨(ssi) Mr/Miss
+            first name + informal
+            
+            
+            워wo 
+            means what
+            
+            어eo 느neu
+            means which
+            read o noong
+            
+            나na 라ra
+            means country
+            
+            사sa 람ram
+            human, person
+            read sca lram 
+            
+            중jung 국gug
+            china
+            choung gug
+            
+            인in  도do
+            
+            일ir 본bon
+            japan
+            
+            독dog 일ir
+            germany
             
         }
         
