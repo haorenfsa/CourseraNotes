@@ -188,4 +188,142 @@ Probabilistic model{
     probabilistic egs{
         oil price - airline cost
     }
+    only get the probabilitiy
+    
+    some model {
+        regression model
+        probability trees
+        Monte Carlo simulation
+        Markov models
+    }
+    
+    regression model{
+        具体方法？最小二乘？梯度下降？
+        通过方差可以估计范围
+        less noise, better resault
+    }
+    probabilitiy tree{
+        for representing
+    }
+    Monte Carlo simulation{
+        for complicated situation
+        uniform distribution 均匀分布
+        calculate, and get distribution
+        
+    }
+    Markov Chain{
+        dynamic, discrete
+        eg{
+            employment
+            time scale: 6 month
+            state:E, UEandLooking, UE n NL
+            state transition
+            model the probabilitiy of transition
+            probability transition matrix
+            
+            Markov property: lack of memory
+            only related to current state
+        }
+        
+    }
+    building blocks of probabilitiy models{
+        random var - representing the potential outcome
+        probabilitiy distribution - assign probabilties to various potential outcomes
+        
+        a discrete random variable
+        0-1, add up to 1
+        
+        a continuous random variable
+        pt = 100 x (pt+1 - pt)/ pt
+        
+        probabilitiy density function 概率密度函数
+        
+        key{
+            mean μ - centrality 均值还是中位数？
+            variances（方差）
+            std deviation（偏差）
+        }
+    }
+    
+    Bernoulli distribution{
+        0 - 1 distribution
+        P(X=1) = p
+        P(X=0) = 1-p
+        μ = p
+        σ² = p(1-p)
+        σ = (p(1-p)) ^ 1/2
+    }
+    
+    Binomial distribution{
+        x times independent trials of Bernoulli with same probabilitiy
+        A and B info not related called independent
+        P(X=x) = Cn,x p^x(1-p)^(n-x)
+        μ = np
+        σ² = np(1-p)
+        
+        tree can be implemented by spreadsheet env
+    }
+    Normal distribution{
+        Known as Bell Curve
+        math theory: the Central Limit Theorem
+        param: μ and σ
+        
+        continuous
+    }
+    
+    the Empirical Rules{
+        σ 68%
+        2σ 95%
+        3σ 99.7%
+    }
+}
+
+regression model{
+    simple{
+        E(Y|X) = b0 + b1X
+        strength of linear asociation
+        correlation of 2 var: r -1~1
+        
+    } 
+    
+    usage{
+        prediction tool
+        interpreting coefficients from the model
+        provide quantifying method
+    }
+    
+    regression method{
+        (find the line of best fit)
+        least squares;
+        
+        key insight:{
+            decompose the data: fitted, residuals(残差)
+        }
+        both useful{
+            fitted for forecast
+            residuals for quality assessment
+            
+            especially biggest residuals, expain why not well fit
+        }
+        
+        eg: how meterial affect fuel eco    
+        anaylize the residual -> type of engine
+    }
+    
+    interpretation coefficients{
+        help understanding
+        how:
+        look at unit of measurement
+    }
+    
+    R2 and Root Mean Squared Error(RMSE){
+        R2:square of correlation
+        RMSE: residual std deviation (noise)
+    }
+    
+    转换后，再确定关系{
+        比如对变量先取对数，这样线性模型就能表示对数了
+       
+    }
+    后面的多变量回归，逻辑回归
 }

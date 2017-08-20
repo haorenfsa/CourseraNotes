@@ -278,6 +278,47 @@ nginx{
 
 //note date
 QA{
+    网络状况{
+        http://www.17ce.com
+    }
+    
+    mmap{
+        mmap()系统调用使得进程之间通过映射同一个普通文件实现共享内存。普通文件被映射到进程地址空间后，进程可以像访问普通内存一样对文件进行访问，不必再调用read()，write（）等操作。
+　　注：实际上，mmap()系统调用并不是完全为了用于共享内存而设计的。它本身提供了不同于一般对普通文件的访问方式，进程可以像读写内存一样对普通文件的操作。而Posix或System V的共享内存IPC则纯粹用于共享目的，当然mmap()实现共享内存也是其主要应用之一。 
+    }
+    
+    不重启识别新硬盘{
+        #echo "scsi add-single-device a b c d" > /porc/scsi/scsi
+
+        a是硬盘所在SCSI控制器号（我的VM有2个SCSI控制器，所以就是1）；
+        b是硬盘所在SCSI通道的编号（一般单通道的就是0，多通道的要看是哪个通道了）；
+        c是硬盘的SCSI ID号（可以通过具体插入的硬盘插槽来判断）；
+        d是硬盘的lun号（默认情况都是0）
+
+        2、添加新硬盘
+
+        [root@lab6-5 ~]# echo "scsi add-single-device 2 0 1 0" > /proc/scsi/scsi
+    }
+    
+    ssh 代理{
+        sudo ssh -i Ohio-1.pem -Ng -L 32760:127.0.0.1:8080 ec2-user@52.15.125.241
+        https://www.zifangsky.cn/916.html
+    }
+    network tool{
+        tracert  (trace route)
+    }
+    
+    git{
+        复制整个仓库的提交过程
+        git clone --bare
+        git push --mirror
+        
+        rebase 合并时，把本分支的所有提交合并一条记录，提交到origin中
+        git rebase origin
+        git rebase --continue
+        git rebase --abort
+    }
+    
     进程状态 内存情况{
 
         PID：进程的ID
